@@ -5,7 +5,7 @@ def alphabetize(arr)
   # code here
   esp_alpha = 'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'
   thing = arr.sort_by do |word|
-    esp_alpha.index(word[0])
+    esp_alpha.index(word[0..1])
   end
   return thing
 end
