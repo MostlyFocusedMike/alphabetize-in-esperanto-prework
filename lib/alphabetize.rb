@@ -3,7 +3,7 @@ require 'pry'
 
 def alphabetize(arr)
   # code here
-  Esp_alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  Esp_alpha = 'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'
   arr.sort_by do |phrase|
     binding.pry
   end
