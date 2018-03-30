@@ -4,7 +4,7 @@ require 'pry'
 def alphabetize(arr)
   # code here
   esp_alpha = 'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'
-  arr.sort_by do |phrase|
+  arr.sort do |phrase|
     binding.pry
   end
 end
