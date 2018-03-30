@@ -5,7 +5,6 @@ def alphabetize(arr)
   # code here
   esp_alpha = 'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'
   thing = arr.sort do |a,b|
-    a,b = esp_alpha.index(a),esp_alpha.index(b) 
     a <=> b    
   end
   puts thing.inspect
