@@ -5,7 +5,7 @@ def alphabetize(arr)
   # code here
   esp_alpha = 'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'
   arr.sort do |phrase|
-    binding.pry
+    
   end
 end
 
