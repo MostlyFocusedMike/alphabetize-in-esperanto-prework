@@ -9,5 +9,6 @@ def alphabetize(arr)
   end
 end
 
-phrase = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
+arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
+alphabetize(arr)
 require 'pry'
