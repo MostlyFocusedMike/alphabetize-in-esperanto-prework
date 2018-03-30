@@ -1,4 +1,4 @@
 def alphabetize(arr)
   # code here
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  Esp_alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 end
