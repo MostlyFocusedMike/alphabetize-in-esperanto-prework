@@ -4,8 +4,8 @@ require 'pry'
 def alphabetize(arr)
   # code here
   esp_alpha = 'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'
-  arr.sort do |phrase|
-    
+  arr.sort do |a,b|
+    esp_alpha.index(a) <=> esp_alpha.index(b)    
   end
 end
 
