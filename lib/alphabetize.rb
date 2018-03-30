@@ -5,7 +5,8 @@ def alphabetize(arr)
   # code here
   esp_alpha = 'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'
   thing = arr.sort_by do |word|
-    word.split("").map {|letter| esp_alpha.index(letter)}.reduce(0, :+)
+    word.split("").map {|letter| esp_alpha.index(letter)}
+    binding.pry
   end
 
   return thing
